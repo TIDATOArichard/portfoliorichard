@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+  <header>
+    
+    <div class="container">
+      <div class="logo">Portfolio</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <div class="theme-switch">
+              <input type="checkbox" id="theme-toggle" class="theme-switch__input">
+              <label for="theme-toggle" class="theme-switch__label">
+                <span class="theme-switch__icon">🌙</span>
+                <span class="theme-switch__icon">☀️</span>
+              </label>
+            </div>
+          </li>
+        </ul>
+        
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+    
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Salut, Je suis  <span class="highlight">TIDATOA Diminine Richard</span></h1>
+        <h2>Developeur junior </h2>
+        <p>Je crée des sites web beaux et fonctionnels avec un code propre.</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn primary-btn">Voir mes projet </a>
+          <a href="#contact" class="btn secondary-btn"> Me Contacter </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-img-placeholder">
+          <img src="Pro.jpg" alt="profile picture">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">A Propos</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Bonjour! Je suis un développeur web passionné avec de solides bases en HTML, CSS et JavaScript. J'aime créer des sites Web réactifs et conviviaux qui offrent une excellente expérience utilisateur.</p>
+          <p>Avec une attention aux détails et un engagement envers un code propre et efficace, je m'efforce de créer des solutions numériques qui non seulement ont fière allure, mais qui fonctionnent également exceptionnellement bien.</p>
+          <div class="personal-info">
+            <div class="info-item">
+              <span class="info-title">Nom:</span>
+              <span class="info-value">TIDATOA Diminine Richard</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">Email:</span>
+              <span class="info-value">tidatoar@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-title">Location:</span>
+              <span class="info-value">Lome, TOGO</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="de la qualite superieur.png" alt="profile image">
+        </div>
+      </div>
+      <div class="back-to-top">
+        <a href="#home" class="btn secondary-btn">Retour à l'accueil</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Competances</h2>
+      <div class="skills-container">
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-name">HTML</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">CSS</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">JavaScript</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%"></div>
+              </div>
+            </div>
+            <!--<div class="skill-item">
+              <div class="skill-name">Responsive Design</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 92%"></div>
+              </div>
+            </div>-->
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>Tools & Others</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-name">Git</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">Figma</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 75%"></div>
+              </div>
+            </div>
+            <!--<div class="skill-item">
+              <div class="skill-name">SEO</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 70%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-name">Performance Optimization</div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 78%"></div>
+              </div>
+            </div>-->
+          </div>
+        </div>
+      </div>
+      <div class="back-to-top">
+        <a href="#home" class="btn secondary-btn">Retour à l'accueil</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Mes Projets</h2>
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">Tout</button>
+        <button class="filter-btn" data-filter="web">Web Design</button>
+        <button class="filter-btn" data-filter="app">App Development</button>
+        <button class="filter-btn" data-filter="other">Other</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <div class="project-img-placeholder"></div>
+          </div>
+          <div class="project-info">
+            <h3>Projet N°1</h3>
+            <p>A responsive website for a local business with modern design.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn small-btn">Voir</a>
+              <a href="#" class="btn small-btn secondary-btn">Code Source</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="app">
+          <div class="project-img">
+            <div class="project-img-placeholder"></div>
+          </div>
+          <div class="project-info">
+            <h3>Projet N°2</h3>
+            <p>A web application with interactive features and clean UI.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn small-btn">Voir</a>
+              <a href="#" class="btn small-btn secondary-btn">Code Source</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="web">
+          <div class="project-img">
+            <div class="project-img-placeholder"></div>
+          </div>
+          <div class="project-info">
+            <h3>Projet N°3</h3>
+            <p>An e-commerce website with product filtering and cart functionality.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn small-btn">Voir</a>
+              <a href="#" class="btn small-btn secondary-btn">Code Source</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" data-category="other">
+          <div class="project-img">
+            <div class="project-img-placeholder"></div>
+          </div>
+          <div class="project-info">
+            <h3>Projet N°4</h3>
+            <p>A landing page with animations and interactive elements.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn small-btn">Voir</a>
+              <a href="#" class="btn small-btn secondary-btn">Code Source </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="back-to-top">
+        <a href="#home" class="btn secondary-btn">Retour à l'accueil</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Me Contacter </h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p>tidatoar@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📱</div>
+            <div class="contact-details">
+              <h3>Telephone</h3>
+              <p>+228 91443682</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-details">
+              <h3>Localisation</h3>
+              <p>Lome, Togo</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link">LinkedIn</a>
+            <a href="#" class="social-link">GitHub</a>
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Nom</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Sujet</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Envoyer</button>
+          </form>
+        </div>
+      </div>
+      <div class="back-to-top">
+        <a href="#home" class="btn secondary-btn">Retour à l'accueil</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 TIDATOA D. Richard. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Gestion du thème
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    // Vérifier si un thème est déjà sauvegardé
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      themeToggle.checked = true;
+      body.classList.add('dark-theme');
+    }
+
+    // Gérer le changement de thème
+    themeToggle.addEventListener('change', () => {
+      if (themeToggle.checked) {
+        body.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark');
+      } else {
+        body.classList.remove('dark-theme');
+        localStorage.setItem('theme', 'light');
+      }
+    });
+  </script>
+</body>
+</html>
